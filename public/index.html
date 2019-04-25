@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
     <title>Sample fetch</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.2.0/socket.io.js"></script>
   </head>
   <body>
     <label>Username</label>
@@ -12,5 +13,12 @@
     <label>Password</label>
     <input placeholder="password" type="password" class="password" />
     <button type="button" class="submitButton">Submit</button>
+    <br style="magin: 20px 0" />
+    <p>Socket</p>
+    <label>Event name</label>
+    <input placeholder="eventName" class="eventName" />
+    <label>Payload</label>
+    <input placeholder="payload" class="payload" />
+    <button type="button" class="submitSocket">Submit</button>
   </body>
 </html>
